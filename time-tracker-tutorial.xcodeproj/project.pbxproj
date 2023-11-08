@@ -11,6 +11,8 @@
 		73B9242F2AF9343D007BBDB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9242E2AF9343D007BBDB6 /* ContentView.swift */; };
 		73B924312AF9343E007BBDB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B924302AF9343E007BBDB6 /* Assets.xcassets */; };
 		73B924342AF9343E007BBDB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73B924332AF9343E007BBDB6 /* Preview Assets.xcassets */; };
+		73B9243D2AF936F2007BBDB6 /* TimeArc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9243C2AF936F2007BBDB6 /* TimeArc.swift */; };
+		73B9243F2AF938BA007BBDB6 /* CustomTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B9243E2AF938BA007BBDB6 /* CustomTimer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		73B924302AF9343E007BBDB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73B924332AF9343E007BBDB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		73B924352AF9343E007BBDB6 /* time_tracker_tutorial.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = time_tracker_tutorial.entitlements; sourceTree = "<group>"; };
+		73B9243C2AF936F2007BBDB6 /* TimeArc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeArc.swift; sourceTree = "<group>"; };
+		73B9243E2AF938BA007BBDB6 /* CustomTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTimer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			children = (
 				73B9242C2AF9343D007BBDB6 /* time_tracker_tutorialApp.swift */,
 				73B9242E2AF9343D007BBDB6 /* ContentView.swift */,
+				73B9243B2AF936DE007BBDB6 /* tools */,
 				73B924302AF9343E007BBDB6 /* Assets.xcassets */,
 				73B924352AF9343E007BBDB6 /* time_tracker_tutorial.entitlements */,
 				73B924322AF9343E007BBDB6 /* Preview Content */,
@@ -67,6 +72,15 @@
 				73B924332AF9343E007BBDB6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		73B9243B2AF936DE007BBDB6 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				73B9243C2AF936F2007BBDB6 /* TimeArc.swift */,
+				73B9243E2AF938BA007BBDB6 /* CustomTimer.swift */,
+			);
+			path = tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +153,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B9243F2AF938BA007BBDB6 /* CustomTimer.swift in Sources */,
 				73B9242F2AF9343D007BBDB6 /* ContentView.swift in Sources */,
 				73B9242D2AF9343D007BBDB6 /* time_tracker_tutorialApp.swift in Sources */,
+				73B9243D2AF936F2007BBDB6 /* TimeArc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
